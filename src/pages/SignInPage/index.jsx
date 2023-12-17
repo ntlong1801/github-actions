@@ -96,7 +96,7 @@ export default function SignInPage() {
                 {t('signIn.google')}
               </span>
             </a>
-            <a
+{/*             <a
               href={`${process.env.REACT_APP_API_URL}/auth/facebook`}
               className="flex p-button w-full justify-content-between mt-2"
             >
@@ -104,7 +104,7 @@ export default function SignInPage() {
               <span className="flex flex-1 justify-content-center font-bold">
                 {t('signIn.facebook')}
               </span>
-            </a>
+            </a> */}
           </div>
 
           {isLoading && <Loading />}
